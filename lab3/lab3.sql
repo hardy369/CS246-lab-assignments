@@ -19,7 +19,7 @@ a1 CHAR(20),
 );
 
 insert into T2 (a1,a2,a3)
-VALUES ROW("student01", 270101001, 9.8), ROW("student01", 270101002, 8.9), ROW("student02", 270101003, 7.6);
+VALUES ROW("student01", 270101001, 9.8), ROW("student01", 270101002, 8.9), ROW("student02", 270101001, 7.6);
  UPDATE T2 SET a2=270101002
  where a1 ="student01" ;  -- gives error since a2 is primary key it should contain unique entries
 delete from T2 where a1="student02";
