@@ -2,6 +2,8 @@
 
 This course is covers various implementations of sql features.
 
+**COURSE WEBSITE**: https://www.iitg.ac.in/cse/CS246
+
 week-1&2 : cprogram for sorting
 
 week-4: C program related to DBMS concepts
